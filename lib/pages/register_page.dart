@@ -10,6 +10,8 @@ import '../helper/show_snack_bar.dart';
 class RegisterPage extends StatefulWidget {
   static String id = "registerPage";
 
+  const RegisterPage({super.key});
+
   @override
   State<RegisterPage> createState() => _RegisterPageState();
 }
